@@ -1,0 +1,3 @@
+google-adk[agent-identity]>=1.18.0,<2.0.0
+google-cloud-aiplatform>=1.126.1
+urllib3<2.0.0

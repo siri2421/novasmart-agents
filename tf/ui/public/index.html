@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaSmart - Autonomous Pricing Portal</title>
+  <meta name="description" content="NovaSmart employee pricing portal featuring secure autonomous price match verification and co-pilot chat.">
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Glowing Orbs for Deep-Space Glassmorphism -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Main Portal Container -->
+  <div class="portal-container">
+    
+    <!-- HEADER -->
+    <header class="portal-header">
+      <div class="brand">
+        <i data-lucide="sparkles" class="brand-icon"></i>
+        <div class="brand-text">
+          <h1>NovaSmart</h1>
+          <span class="subtext">Autonomous Pricing Portal</span>
+        </div>
+      </div>
+      
+      <!-- System Status Indicators -->
+      <div class="system-status">
+        <div class="status-pill connected" id="status-agent">
+          <span class="status-dot animate-pulse"></span>
+          <span class="pill-label">Agent 1: Live</span>
+        </div>
+        <div class="status-pill secure" id="status-gateway">
+          <span class="status-dot"></span>
+          <span class="pill-label">Agent Gateway: Active</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN GRID WORKSPACE -->
+    <main class="portal-workspace">
+      
+      <!-- LEFT COLUMN: Product Catalog Explorer -->
+      <section class="catalog-section">
+        <div class="search-filter-bar">
+          <!-- Search Bar -->
+          <div class="search-wrapper">
+            <i data-lucide="search" class="search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search by SKU, product name, or category..." autocomplete="off">
+          </div>
+          
+          <!-- Category Filter Pills -->
+          <div class="category-filters" id="category-filters-container">
+            <button class="filter-pill active" data-category="all">All Items</button>
+            <button class="filter-pill" data-category="Household Electronics">Household</button>
+            <button class="filter-pill" data-category="Laptops & Computing">Computing</button>
+            <button class="filter-pill" data-category="Personal Mobile Electronics">Mobile</button>
+            <button class="filter-pill" data-category="Audio & Acoustics">Audio</button>
+            <button class="filter-pill" data-category="Smart Wearables & Gear">Wearables</button>
+          </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-grid" id="products-grid-container">
+          <!-- Dynamic cards injected here by app.js -->
+          <div class="loading-catalog">
+            <div class="spinner"></div>
+            <p>Fetching NovaSmart live inventory...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT COLUMN: Pricing Co-Pilot Terminal -->
+      <section class="copilot-section">
+        <div class="copilot-terminal">
+          
+          <!-- Terminal Header -->
+          <div class="terminal-header">
+            <div class="terminal-title">
+              <i data-lucide="bot" class="terminal-bot-icon"></i>
+              <div>
+                <h3>Pricing Co-Pilot</h3>
+                <span class="terminal-subtitle">Price Match Agent (A2A Enabled)</span>
+              </div>
+            </div>
+            <button id="reset-chat-btn" title="Reset Session" class="action-btn">
+              <i data-lucide="refresh-cw"></i>
+            </button>
+          </div>
+
+
+          <!-- Chat Messages Area -->
+          <div class="chat-messages" id="chat-messages-container">
+            <!-- Greeting Message -->
+            <div class="message system">
+              <div class="message-bubble">
+                <p>👋 <strong>Welcome to NovaSmart Pricing Terminal!</strong></p>
+                <p>I am your **Front-line Price Match Agent (Agent 1)**. I can instantly verify and approve price matches up to **20% discount**.</p>
+                <p>For higher discounts, I will dynamically escalate the request to our back-office **Markdown Strategy Agent (Agent 2)** via a secure Agent-to-Agent (A2A) network handshake.</p>
+                <p><em>Select any product card on the left and click <strong>Audit Pricing</strong> to begin a competitor check!</em></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Loading Indicator -->
+          <div class="chat-loading" id="chat-loading-indicator">
+            <div class="typing-indicator">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="loading-text">Agent is thinking...</span>
+          </div>
+
+          <!-- Chat Input Area -->
+          <div class="chat-input-area">
+            <textarea id="chat-input" placeholder="Ask a question or paste a price match request..." rows="3"></textarea>
+            <button id="send-btn" class="send-btn" disabled>
+              <i data-lucide="send"></i>
+            </button>
+          </div>
+          
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- SLIDE-OUT COMPETITOR AUDIT DRAWER -->
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <div class="audit-drawer" id="audit-drawer">
+    
+    <!-- Drawer Header -->
+    <div class="drawer-header">
+      <h3 class="drawer-title">Competitor Pricing Audit</h3>
+      <button class="close-drawer-btn" id="close-drawer-btn">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+
+    <!-- Drawer Content -->
+    <div class="drawer-content" id="drawer-content-area">
+      <!-- Injected by app.js -->
+    </div>
+
+  </div>
+
+  <!-- JS Controller -->
+  <script src="app.js"></script>
+</body>
+</html>

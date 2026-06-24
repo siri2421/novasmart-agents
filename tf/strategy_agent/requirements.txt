@@ -1,0 +1,9 @@
+google-adk[a2a,agent-identity,mcp]>=1.18.0
+a2a-sdk>=0.3.26
+google-cloud-aiplatform>=1.126.1
+urllib3<2.0.0
+requests>=2.30.0
+opentelemetry-exporter-otlp-proto-http>=1.26.0
+opentelemetry-exporter-gcp-trace>=1.6.0
+opentelemetry-resourcedetector-gcp>=1.6.0a0
+

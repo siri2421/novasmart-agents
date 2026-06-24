@@ -1,0 +1,502 @@
+[
+  {
+    "sku": "SKU-HSE-4455",
+    "name": "Barista Pro Espresso Machine",
+    "category": "Household Electronics",
+    "shelf_price": 450.0,
+    "stock": 18,
+    "days_stale": 40,
+    "image": "/espresso_machine.png",
+    "description": "Professional-grade 15-bar espresso machine with integrated conical burr grinder and digital temperature control.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 427.5
+      },
+      {
+        "name": "BetaBuy",
+        "price": 382.5
+      }
+    ]
+  },
+  {
+    "sku": "SKU-HSE-4001",
+    "name": "AeroPure Smart Air Purifier",
+    "category": "Household Electronics",
+    "shelf_price": 349.0,
+    "stock": 15,
+    "days_stale": 3,
+    "image": "/air_purifier.png",
+    "description": "True HEPA smart air purifier with real-time air quality tracking and multi-stage carbon filtering.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 331.55
+      },
+      {
+        "name": "BetaBuy",
+        "price": 296.65
+      }
+    ]
+  },
+  {
+    "sku": "SKU-HSE-4002",
+    "name": "TerraMow Robotic Lawn Mower",
+    "category": "Household Electronics",
+    "shelf_price": 1499.0,
+    "stock": 4,
+    "days_stale": 18,
+    "image": "/robotic_lawn_mower.png",
+    "description": "GPS-guided autonomous robotic lawn mower with obstacle avoidance and multi-zone scheduling.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 1424.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 1274.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-HSE-4003",
+    "name": "OmniClean Robot Vacuum Pro",
+    "category": "Household Electronics",
+    "shelf_price": 899.0,
+    "stock": 9,
+    "days_stale": 6,
+    "image": "/robot_vacuum.png",
+    "description": "Robotic vacuum and mop combo featuring LiDAR mapping, auto-empty station, and hot-water mop washing.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 854.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 764.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-HSE-4004",
+    "name": "Spectra 4K Laser Projector",
+    "category": "Household Electronics",
+    "shelf_price": 2799.0,
+    "stock": 3,
+    "days_stale": 21,
+    "image": "https://images.unsplash.com/photo-1535016120720-40c646be5580?q=80&w=600&auto=format&fit=crop",
+    "description": "Ultra-short throw 4K laser projector with 2500 lumens brightness, HDR10 support, and built-in premium soundbar.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 2659.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 2379.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-LPT-1001",
+    "name": "Titanium Book Pro 16",
+    "category": "Laptops & Computing",
+    "shelf_price": 2499.0,
+    "stock": 4,
+    "days_stale": 15,
+    "image": "/laptop_16.png",
+    "description": "16-inch high-performance developer workstation with titanium chassis, 12-core CPU, and liquid cooling.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 2374.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 2124.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-LPT-1002",
+    "name": "AeroGrid Gaming Laptop",
+    "category": "Laptops & Computing",
+    "shelf_price": 1899.0,
+    "stock": 8,
+    "days_stale": 5,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=600&auto=format&fit=crop",
+    "description": "Powerful gaming laptop with 240Hz refresh rate display, latest discrete graphics card, and per-key RGB keyboard.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 1804.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 1614.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-LPT-1003",
+    "name": "VaporGlide Ultra-Thin 14",
+    "category": "Laptops & Computing",
+    "shelf_price": 1299.0,
+    "stock": 15,
+    "days_stale": 2,
+    "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=600&auto=format&fit=crop",
+    "description": "Featherlight 14-inch executive ultrabook with 18-hour battery life, fanless operation, and OLED display.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 1234.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 1104.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-LPT-1004",
+    "name": "Zenith Developer Workstation",
+    "category": "Laptops & Computing",
+    "shelf_price": 2999.0,
+    "stock": 3,
+    "days_stale": 28,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=600&auto=format&fit=crop",
+    "description": "Ultimate desktop-replacement laptop with 64GB RAM, dual 2TB NVMe SSDs, and high-core workstation processor.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 2849.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 2549.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-LPT-1005",
+    "name": "Chromium CloudBook Enterprise",
+    "category": "Laptops & Computing",
+    "shelf_price": 899.0,
+    "stock": 22,
+    "days_stale": 1,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=600&auto=format&fit=crop",
+    "description": "Secure, cloud-native enterprise notebook with biometric authentication and sandboxed container environment.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 854.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 764.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-MOB-2001",
+    "name": "Apex 5G Foldable Smartphone",
+    "category": "Personal Mobile Electronics",
+    "shelf_price": 1799.0,
+    "stock": 12,
+    "days_stale": 4,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=600&auto=format&fit=crop",
+    "description": "Premium 7.8-inch foldable screen smartphone with triple lens camera, 5G speed, and multi-active window support.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 1709.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 1529.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-MOB-2002",
+    "name": "NovaPhone Ultra 26",
+    "category": "Personal Mobile Electronics",
+    "shelf_price": 1199.0,
+    "stock": 18,
+    "days_stale": 1,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=600&auto=format&fit=crop",
+    "description": "Flagship smartphone featuring 200MP camera, 100x space zoom, integrated stylus, and dynamic AMOLED display.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 1139.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 1019.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-MOB-2003",
+    "name": "VaporTalk Sat-Phone Pro",
+    "category": "Personal Mobile Electronics",
+    "shelf_price": 1499.0,
+    "stock": 5,
+    "days_stale": 19,
+    "image": "https://images.unsplash.com/photo-1546054454-aa26e2b734c7?q=80&w=600&auto=format&fit=crop",
+    "description": "Dual-mode cellular and satellite phone with emergency SOS mapping, rugged shockproof build, and global coverage.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 1424.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 1274.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-MOB-2004",
+    "name": "Quantum Watch Active 5",
+    "category": "Personal Mobile Electronics",
+    "shelf_price": 399.0,
+    "stock": 40,
+    "days_stale": 2,
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=600&auto=format&fit=crop",
+    "description": "Advanced health tracking smartwatch with built-in ECG, blood pressure monitor, and automated sleep coach.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 379.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 339.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-MOB-2005",
+    "name": "AeroGlass AR Smart Glasses",
+    "category": "Personal Mobile Electronics",
+    "shelf_price": 699.0,
+    "stock": 8,
+    "days_stale": 14,
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=600&auto=format&fit=crop",
+    "description": "Lightweight augmented reality smart glasses with head-up navigation, voice translations, and discreet speakers.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 664.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 594.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-AUD-3001",
+    "name": "SonicDome ANC Headphones",
+    "category": "Audio & Acoustics",
+    "shelf_price": 349.0,
+    "stock": 25,
+    "days_stale": 2,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=600&auto=format&fit=crop",
+    "description": "Premium over-ear headphones with active noise cancellation, custom spatial audio, and 40-hour wireless battery.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 331.55
+      },
+      {
+        "name": "BetaBuy",
+        "price": 296.65
+      }
+    ]
+  },
+  {
+    "sku": "SKU-AUD-3002",
+    "name": "VaporBuds Pro Wireless",
+    "category": "Audio & Acoustics",
+    "shelf_price": 199.0,
+    "stock": 45,
+    "days_stale": 1,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=600&auto=format&fit=crop",
+    "description": "Ergonomic true-wireless earbuds with adaptive ANC, sweatproof design, and fast wireless charging case.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 189.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 169.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-AUD-3003",
+    "name": "AuraSound Studio Monitors",
+    "category": "Audio & Acoustics",
+    "shelf_price": 899.0,
+    "stock": 6,
+    "days_stale": 18,
+    "image": "/studio_monitors.png",
+    "description": "Bi-amplified professional studio monitors with carbon fiber drivers, flat frequency response, and DSP tuning.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 854.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 764.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-AUD-3004",
+    "name": "Matrix SoundBar Surround 9.1",
+    "category": "Audio & Acoustics",
+    "shelf_price": 1199.0,
+    "stock": 8,
+    "days_stale": 9,
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?q=80&w=600&auto=format&fit=crop",
+    "description": "9.1 channel home theater soundbar with wireless rear speakers, Dolby Atmos support, and auto-calibration.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 1139.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 1019.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-AUD-3005",
+    "name": "Zenith Audiophile DAC/Amp",
+    "category": "Audio & Acoustics",
+    "shelf_price": 599.0,
+    "stock": 7,
+    "days_stale": 31,
+    "image": "/audiophile_dac.png",
+    "description": "High-fidelity digital-to-analog converter and balanced headphone amplifier supporting native DSD streaming.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 569.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 509.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-WRB-5001",
+    "name": "PixelLens VR Headset Pro",
+    "category": "Smart Wearables & Gear",
+    "shelf_price": 1299.0,
+    "stock": 8,
+    "days_stale": 16,
+    "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=600&auto=format&fit=crop",
+    "description": "Standalone VR headset with dual 4K micro-OLED displays, precise hand-eye tracking, and pass-through AR.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 1234.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 1104.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-WRB-5002",
+    "name": "AeroView Action Cam 8K",
+    "category": "Smart Wearables & Gear",
+    "shelf_price": 499.0,
+    "stock": 15,
+    "days_stale": 4,
+    "image": "/action_camera.png",
+    "description": "Rugged waterproof action camera recording in 8K resolution with mechanical image stabilization and dual screens.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 474.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 424.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-WRB-5003",
+    "name": "Quantum Fit Band 3",
+    "category": "Smart Wearables & Gear",
+    "shelf_price": 149.0,
+    "stock": 42,
+    "days_stale": 1,
+    "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=600&auto=format&fit=crop",
+    "description": "Slim fitness tracker with continuous heart rate monitoring, body battery index, and 7-day battery life.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 141.55
+      },
+      {
+        "name": "BetaBuy",
+        "price": 126.65
+      }
+    ]
+  },
+  {
+    "sku": "SKU-WRB-5004",
+    "name": "VaporTrek Golf GPS Watch",
+    "category": "Smart Wearables & Gear",
+    "shelf_price": 299.0,
+    "stock": 14,
+    "days_stale": 8,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=600&auto=format&fit=crop",
+    "description": "Preloaded with 40,000+ global courses, showing distances to greens, hazard metrics, and auto-shot tracking.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 284.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 254.15
+      }
+    ]
+  },
+  {
+    "sku": "SKU-WRB-5005",
+    "name": "AuraScope NightVision Binoculars",
+    "category": "Smart Wearables & Gear",
+    "shelf_price": 399.0,
+    "stock": 6,
+    "days_stale": 25,
+    "image": "/nightvision_binoculars.png",
+    "description": "Digital infrared night vision binoculars with 4K recording, 5x optical zoom, and 1000-foot viewing range in darkness.",
+    "competitors": [
+      {
+        "name": "AlphaStore",
+        "price": 379.05
+      },
+      {
+        "name": "BetaBuy",
+        "price": 339.15
+      }
+    ]
+  }
+]
